@@ -12,10 +12,10 @@ public abstract class Message {
     private Payload payload;
 
     public Message() {
-        this.setSender(0);
-        this.setRecipient(0);
-        this.setType(null);
-        this.setPayload(null);
+        this.sender = 0;
+        this.recipient = 0;
+        this.type = null;
+        this.payload = null;
     }
 
     public int getSender() {
