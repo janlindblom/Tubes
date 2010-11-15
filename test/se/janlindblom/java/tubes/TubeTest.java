@@ -52,18 +52,6 @@ public class TubeTest {
     }
 
     /**
-     * Test of deleteInlets method, of class Tube.
-     */
-    @Test
-    public void testDeleteInlets() {
-        System.out.println("deleteInlets");
-        Tube instance = new Tube();
-        instance.deleteInlets();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
      * Test of deleteInlet method, of class Tube.
      */
     @Test

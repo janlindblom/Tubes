@@ -14,11 +14,11 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author lindcjan
+ * @author jan
  */
-public class InletTest {
+public class PayloadTest {
 
-    public InletTest() {
+    public PayloadTest() {
     }
 
     @BeforeClass
@@ -37,16 +37,10 @@ public class InletTest {
     public void tearDown() {
     }
 
-    /**
-     * Test of connect method, of class Inlet.
-     */
     @Test
-    public void testConnect() {
-        System.out.println("connect");
-        Tube t = null;
-        Inlet instance = new Inlet();
-        instance.connect(t);
+    public void testSomeMethod() {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
+
 }

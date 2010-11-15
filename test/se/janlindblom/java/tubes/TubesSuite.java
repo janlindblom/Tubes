@@ -17,7 +17,7 @@ import org.junit.runners.Suite;
  * @author lindcjan
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({se.janlindblom.java.tubes.TubeTest.class,se.janlindblom.java.tubes.MessageTest.class,se.janlindblom.java.tubes.OutletTest.class,se.janlindblom.java.tubes.InletTest.class,se.janlindblom.java.tubes.ManagerTest.class})
+@Suite.SuiteClasses({OutletTest.class, InletTest.class, TubeTest.class, MessageTest.class, ManagerTest.class, TypeTest.class, PayloadTest.class})
 public class TubesSuite {
 
     @BeforeClass
