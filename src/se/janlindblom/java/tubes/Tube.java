@@ -19,20 +19,36 @@ import java.util.logging.Logger;
 public class Tube extends Observable implements Observer {
     private ArrayList<Inlet> inlets;
 
+    /**
+     * 
+     */
     public Tube() {
         inlets = new ArrayList<Inlet>();
     }
 
+    /**
+     * 
+     * @param i 
+     */
     public void addInlet(Inlet i) {
         inlets.add(i);
     }
 
+    /**
+     * 
+     * @param i 
+     */
     public void deleteInlet(Inlet i) {
         if (inlets.contains(i)) {
             inlets.remove(i);
         }
     }
 
+    /**
+     * 
+     * @param o
+     * @param arg 
+     */
     public void update(Observable o, Object arg) {
         if (o.getClass().equals(Manager.class)) {
             Logger.getLogger(Tube.class.getName()).log(Level.INFO, arg.toString());

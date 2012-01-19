@@ -35,8 +35,6 @@ public class Inlet extends Observable {
 
     /**
      * Disconnect this Inlet from a {@link Tube}.
-     *
-     * @param t
      */
     public void disconnect() {
         tube.deleteInlet(this);
